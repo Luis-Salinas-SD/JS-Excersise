@@ -3,30 +3,40 @@
 }
 
 body {
-    background: hsl(56, 83%, 88%);
+    background: hsl(55, 100%, 90%);
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
-aside {
-    width: 15%;
-    height: 100%;
-    background: #0E8044;
-    margin: 0px;
-    color: white;
-    padding: 2% 5PX;
-    list-style: none;
-}
-
-.menu {
-    width: 98%;
+.banner {
+    width: 100%;
+    height: auto;
+    background: #42b983;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
     padding: 5px;
-    background: #3CC47C;
-    text-decoration: none;
-    font-size: 3vh;
-    margin: 1px;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.main {
+    width: auto;
+    height: 100%;
+    margin: 0 10%;
+    background-color: rgb(255, 248, 241);
+    padding: 10px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #273849;
+    margin: 5px;
+    font-size: 2em;
+}
+
+p {
+    font-weight: 400;
+    color: #273849;
+    margin: 3px;
+    padding: 5px;
+    font-size: 1.2em;
 }
